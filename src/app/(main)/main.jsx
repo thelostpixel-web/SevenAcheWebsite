@@ -21,16 +21,13 @@ export default function MainPage() {
                 </span>
                 <span>
                     <Link href="/work" className="no-underline flex land-t">
-                        <a>Work</a>
-                        ↗
+                        Work ↗
                     </Link>
                     <Link href="/contact" className="no-underline flex land-t">
-                        <a>Contact</a>
-                        ↗
+                        Contact ↗
                     </Link>
                     <Link href="/about" className="no-underline flex land-t">
-                        <a>About</a>
-                        ↗
+                        About ↗
                     </Link>
                 </span>
 

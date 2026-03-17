@@ -23,38 +23,36 @@ export default function MainPage() {
                     <span>
                     <a className="land-t" style={{ textDecoration: 'none', color: 'black' } }>Work</a>
                         <Link href="/contact" className="no-underline flex land-t">
-                            <a>Contact</a>
-                            ↗
+                            Contact ↗
                         </Link>
                         <Link href="/about" className="no-underline flex land-t">
-                            <a>About</a>
-                            ↗
+                            About ↗
                         </Link>
                     </span>
                 </div>
                 <div className="land-right">
                     <Link href="/studiofox" className="no-underline">
                         <span>
-                            <a>Studio fox</a>
-                            <a>Full brand</a>
+                            <span>Studio fox</span>
+                            <span>Full brand</span>
                         </span>
                     </Link>
                     <Link href="/tcsound" className="no-underline">
                         <span>
-                            <a>TCS</a>
-                            <a>Full brand</a>
+                            <span>TCS</span>
+                            <span>Full brand</span>
                         </span>
                     </Link>
                     <Link href="/parade" className="no-underline">
                         <span>
-                            <a>Parade Tattoo Parlour</a>
-                            <a>Site and assets</a>
+                            <span>Parade Tattoo Parlour</span>
+                            <span>Site and assets</span>
                         </span>
                     </Link>
                     <Link href="/southwark" className="no-underline">
                         <span>
-                            <a>Southwark Supertram</a>
-                            <a>B2B brand</a>
+                            <span>Southwark Supertram</span>
+                            <span>B2B brand</span>
                         </span>
                     </Link>
 

@@ -22,12 +22,10 @@ export default function MainPage() {
                 </span>
                 <span>
                     <Link href="/work" className="no-underline flex land-t">
-                        <a>Work</a>
-                        ↗
+                        Work ↗
                     </Link>
                     <Link href="/contact" className="no-underline flex land-t">
-                        <a>Contact</a>
-                        ↗
+                        Contact ↗
                     </Link>
 
                         <a className="land-t" style={{ textDecoration: 'none', color: 'black' } }>About</a>
