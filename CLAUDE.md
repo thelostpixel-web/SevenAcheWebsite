@@ -50,10 +50,20 @@ Tailwind CSS with extensive custom config: custom color tokens (CSS variables), 
 - **3D:** Three.js + `@react-three/fiber`
 - **Scroll:** Lenis (smooth scroll)
 - **Syntax highlighting:** Shiki
+- **Email:** Resend (`resend` package)
 
 ### Environment variables
 
 ```
 NEXT_PUBLIC_BASE_URL=https://api.dissociate.io
 API_URL=http://localhost:6900
+RESEND_API_KEY=                        # Required for contact form email sending
 ```
+
+### Contact form
+
+- Form is at `src/app/(main)/contact/page.jsx` — controlled inputs with sonner toast notifications
+- API route at `src/app/api/contact/route.ts` — POSTs to Resend, sends to `mitch@chocolate-ltd.com` and `archieisarchie@gmail.com`
+- From address: `website@seveache.chocolate-ltd.com` (verified domain)
+- Reply-To is set to the sender's email address
+- `RESEND_API_KEY` must be set in `.env.local` (locally) and as a Netlify environment variable (production)
