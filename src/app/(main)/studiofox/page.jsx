@@ -59,20 +59,22 @@ export default function MainPage() {
           </video>
 
           <div className="img-dbl-d">
-            <img src="fox/tshirt.jpg" alt="Studio Fox" />
-            <img src="fox/sign.jpg" alt="Studio Fox" />
-          </div>
-
-          <div className="img-dbl-d">
+            <img src="fox/fff.jpg" alt="Studio Fox" />
             <video autoPlay loop muted playsInline style={{ height: "unset" }}>
               <source src="fox/typography.mp4" type="video/mp4" />
             </video>
-            <img src="fox/fff.jpg" alt="Studio Fox" />
           </div>
 
           <video autoPlay loop muted playsInline>
             <source src="fox/guidelines.mp4" type="video/mp4" />
           </video>
+          <video autoPlay loop muted playsInline className="w-full">
+            <source src="fox/colours.mp4" type="video/mp4" />
+          </video>
+          <div className="img-dbl-d">
+            <img src="fox/tshirt.jpg" alt="Studio Fox" />
+            <img src="fox/sticker.png" alt="Studio Fox" />
+          </div>
         </section>
         <div className="foot-nav">
           <a>Next Project</a>
