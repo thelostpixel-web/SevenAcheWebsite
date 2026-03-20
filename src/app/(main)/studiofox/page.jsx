@@ -67,7 +67,7 @@ export default function MainPage() {
             <video autoPlay loop muted playsInline style={{ height: "unset" }}>
               <source src="fox/typography.mp4" type="video/mp4" />
             </video>
-            <img src="fox/sign.jpg" alt="Studio Fox" />
+            <img src="fox/fff.jpg" alt="Studio Fox" />
           </div>
 
           <video autoPlay loop muted playsInline>
