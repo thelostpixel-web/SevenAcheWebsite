@@ -396,8 +396,11 @@ body {
     }
   }
 
-  .img-dbl * {
+  .img-dbl > img,
+  .img-dbl > video {
     width: 50% !important;
+    min-width: 0;
+    flex-shrink: 1;
   }
 
   .img-dbl-d {
@@ -406,8 +409,11 @@ body {
     gap: 3rem;
 
     img, video {
-      width: 95%;
-      height: 90%;
+      width: 50%;
+      flex: 1;
+      min-width: 0;
+      height: auto;
+      object-fit: cover;
     }
   }
 

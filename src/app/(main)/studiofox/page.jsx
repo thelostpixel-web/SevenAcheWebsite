@@ -12,68 +12,79 @@ import Image from "next/image";
 import { GoArrowRight } from "react-icons/go";
 import { Navbar } from "@/components/main/navbar";
 
-
 // Add a default export combining all components
 export default function MainPage() {
-    return (
-        <>
-            <Navbar />
-            <div className="c-wrap">
+  return (
+    <>
+      <Navbar />
+      <div className="c-wrap">
+        <section className="p-title">
+          <h1>Studio Fox</h1>
+          <span className="t-line"></span>
+        </section>
 
+        <section className="p-desc">
+          <h2>Outside of the box</h2>
+          <a>
+            A bold, contemporary rebrand for an interior design studio ready to
+            step into a more modern, confident space.
+            <br />
+            <br />
+            The project replaced an outdated identity with a brand new system
+            that finally reflects their energy and ambition. The new brand
+            introduces a confident logo mark, flexible typographic rules, and a
+            vibrant colour world, all designed to connect with a younger,
+            corporate-leaning audience.
+            <br />
+            <br />
+            From full guidelines to a redesigned website, pitch materials, and
+            social templates, the identity gives Studio Fox the clarity and
+            personality their work has always deserved. I recommend checking out
+            their website for a deeper dive into the brand.
+          </a>
+        </section>
+        <section className="p-images">
+          <img src="fox/sf.png" alt="Studio Fox" />
+          <video autoPlay loop muted playsInline>
+            <source src="fox/CWFP_animation_loop.mp4" type="video/mp4" />
+          </video>
+          <div className="img-dbl">
+            <video autoPlay loop muted playsInline style={{ height: "unset" }}>
+              <source src="fox/SFIG.mp4" type="video/mp4" />
+            </video>
+            <img src="fox/believe.png" alt="Studio Fox" />
+          </div>
+          <video autoPlay loop muted playsInline>
+            <source src="fox/sf_site_withbar.mp4" type="video/mp4" />
+          </video>
 
-                <section className="p-title">
-                    <h1>Studio Fox</h1>
-                    <span className="t-line"></span>
-                </section>
+          <div className="img-dbl-d">
+            <img src="fox/tshirt.jpg" alt="Studio Fox" />
+            <img src="fox/sign.jpg" alt="Studio Fox" />
+          </div>
 
-                <section className="p-desc">
-                    <h2>
-                        Outside of the box
-                    </h2>
-                    <a>
-                        A bold, contemporary rebrand for an interior design studio ready to step into a more modern, confident space.
-                        <br />
-                        <br />
-                        The project replaced an outdated identity with a brand new system that finally reflects their energy and ambition. The new brand introduces a confident logo mark, flexible typographic rules, and a vibrant colour world, all designed to connect with a younger, corporate-leaning audience.
-                        <br />
-                        <br />
-                        From full guidelines to a redesigned website, pitch materials, and social templates, the identity gives Studio Fox the clarity and personality their work has always deserved.
-                        I recommend checking out their website for a deeper dive into the brand.
-                    </a>
-                </section>
-                <section className="p-images">
-                    <img src="fox/sf.png" alt="Studio Fox" />
-                    <video autoPlay loop muted playsInline><source src="fox/CWFP_animation_loop.mp4" type="video/mp4" /></video>
-                    <div className="img-dbl">
-                        <video autoPlay loop muted playsInline style={{height: 'unset'}}><source src="fox/SFIG.mp4" type="video/mp4" /></video>
-                        <img src="fox/believe.png" alt="Studio Fox" />
-                    </div>
-                    <video autoPlay loop muted playsInline><source src="fox/SFsite_animation.mp4" type="video/mp4" /></video>
-                    <div className="t-body">
-                        <h2>
-                            Articulat
-                        </h2>
-                        <div>
-                            <a>Articulat CF is a new take on the timeless Swiss typography style. Strong, sharp and well–spoken, Articulat was built to be versatile, charismatic and legible. Always in style.</a>
-                        </div>
-                    </div>
-                    <div className="img-dbl-d">
-                        <img src="fox/tee.png" alt="Studio Fox" />
-                        <img src="fox/logo.png" alt="Studio Fox" />
-                    </div>
-                </section>
-                <div className="foot-nav">
-                    <a>Next Project</a>
-                    <a>tc sound</a>
-                    <a></a>
-                    <Link href="/tcsound" className="no-underline flex">
-                        <GoArrowRight />
-                    </Link>
+          <div className="img-dbl-d">
+            <video autoPlay loop muted playsInline style={{ height: "unset" }}>
+              <source src="fox/typography.mp4" type="video/mp4" />
+            </video>
+            <img src="fox/sign.jpg" alt="Studio Fox" />
+          </div>
 
-                </div>
-            </div>
-        </>
-    );
+          <video autoPlay loop muted playsInline>
+            <source src="fox/guidelines.mp4" type="video/mp4" />
+          </video>
+        </section>
+        <div className="foot-nav">
+          <a>Next Project</a>
+          <a>tc sound</a>
+          <a></a>
+          <Link href="/tcsound" className="no-underline flex">
+            <GoArrowRight />
+          </Link>
+        </div>
+      </div>
+    </>
+  );
 }
 
 // Keep named exports as well
