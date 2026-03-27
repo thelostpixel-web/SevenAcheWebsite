@@ -50,7 +50,7 @@ export default function MainPage() {
           </video>
           <div className="img-dbl">
             <video autoPlay loop muted playsInline style={{ height: "unset" }}>
-              <source src="fox/SFIG.mp4" type="video/mp4" />
+              <source src="fox/SFIG2.mp4" type="video/mp4" />
             </video>
             <img src="fox/believe.png" alt="Studio Fox" />
           </div>
