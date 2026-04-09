@@ -89,6 +89,7 @@ export default function MainPage() {
                             value={form.message}
                             onChange={handleChange}
                             required
+                            className="message-input"
                         />
                         <button type="submit" disabled={sending}>
                             {sending ? "Sending..." : "Send"}

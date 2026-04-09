@@ -31,7 +31,6 @@ export function Navbar() {
         <DockIcon>
           <Link href={"/work"}>
             <FaFolder />
-            
           </Link>
         </DockIcon>
         <DockIcon>

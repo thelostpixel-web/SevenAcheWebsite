@@ -18,7 +18,7 @@ export default function MainPage() {
     return (
         <>
             <Navbar />
-            <div className="c-wrap">
+            <div className="c-wrap south-wrap">
                 <section className="p-title">
                     <h1>Southwark Supertram</h1>
                     <span className="t-line"></span>
@@ -39,7 +39,7 @@ export default function MainPage() {
                     </a>
                 </section>
 
-                <section className="p-images">
+                <section className="p-images" >
                     <div className="img-dbl">
                         <video autoPlay loop muted playsInline><source src="southwark/finalloop.mp4" type="video/mp4" /></video>
                         <img src="southwark/sstwall.png" alt="Southwark Supertram" />
@@ -57,14 +57,13 @@ export default function MainPage() {
                         <img src="southwark/markings.png" alt="Southwark Supertram" />
                     </div>
                     <img src="southwark/blind_markings.png" alt="Southwark Supertram" />
-                    <div className="foot-nav">
+                    <div className="foot-nav" >
                         <a>Next Project</a>
                         <a>Studio Fox</a>
                         <a></a>
                         <Link href="/studiofox" className="no-underline flex">
                             <GoArrowRight />
                         </Link>
-
                     </div>
                 </section>
             </div>

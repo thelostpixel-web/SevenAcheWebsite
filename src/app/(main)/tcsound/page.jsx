@@ -60,16 +60,16 @@ export default function MainPage() {
                         <video autoPlay loop muted playsInline><source src="tc/tcs_colours.mp4" type="video/mp4" /></video>
                         <video autoPlay loop muted playsInline><source src="tc/stack_animation.mp4" type="video/mp4" /></video>
                     </div>
-                    <div className="img-dbl">
+                    <div className="img-dbl tc-ig-dbl">
                         <div className="tcs-ig">
-                            <img src="tc/i.png" alt="TC Sound" style={{width: '40% !important'}}/>
+                            <img className=" tc-ig-img" src="tc/i.png" alt="TC Sound"/>
                         </div>
-                        <video autoPlay loop muted playsInline><source src="tc/dmsans_animation.mp4" type="video/mp4" /></video>
+                        <video style={{ width: "100% !important" }} className="tc-stretch" autoPlay loop muted playsInline><source src="tc/dmsans_animation.mp4" type="video/mp4"/></video>
                     </div>
                 </section>
                 <div className="foot-nav">
                     <a>Next Project</a>
-                    <a>Parade Tatoo Parlour</a>
+                    <a>Parade Tattoo Parlour</a>
                     <a></a>
                     <Link href="/parade" className="no-underline flex">
                         <GoArrowRight />

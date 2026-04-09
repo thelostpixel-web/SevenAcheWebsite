@@ -48,22 +48,19 @@ export default function MainPage() {
           <video autoPlay loop muted playsInline>
             <source src="fox/CWFP_animation_loop.mp4" type="video/mp4" />
           </video>
-          <div className="img-dbl">
-            <video autoPlay loop muted playsInline style={{ height: "unset" }}>
+          <div className="img-dbl fox-dbl">
+            <video autoPlay loop muted playsInline>
               <source src="fox/SFIG2.mp4" type="video/mp4" />
             </video>
-            <img src="fox/believe.png" alt="Studio Fox" />
+            <img
+              className="sf-believe"
+              src="fox/believe.png"
+              alt="Studio Fox"
+            />
           </div>
           <video autoPlay loop muted playsInline>
             <source src="fox/sf_site_withbar.mp4" type="video/mp4" />
           </video>
-
-          <div className="img-dbl-d">
-            <img src="fox/fff.jpg" alt="Studio Fox" />
-            <video autoPlay loop muted playsInline style={{ height: "unset" }}>
-              <source src="fox/typography.mp4" type="video/mp4" />
-            </video>
-          </div>
 
           <video autoPlay loop muted playsInline>
             <source src="fox/guidelines.mp4" type="video/mp4" />
