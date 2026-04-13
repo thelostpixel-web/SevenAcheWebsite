@@ -142,6 +142,12 @@ body {
 
 }
 
+
+.tc-ig-img {
+  width: 40% !important;
+}
+
+
 .title-b {
   display: flex;
   flex-direction: column;
@@ -167,6 +173,10 @@ body {
 
 .south-wrap {
   padding-bottom: 0 !important;
+}
+
+.sf-believe {
+  height: auto !important;
 }
 
 .sw-wrap {
@@ -245,8 +255,9 @@ body {
 
   img,
   video {
-    max-height: 696px !important;
+
     border-radius: 1rem;
+    object-fit: fill;
   }
 }
 
@@ -564,6 +575,8 @@ body {
   background-color: #ff0101 !important;
 }
 
+
+
 .land-wrap {
   background-color: #dcff00;
   padding: 5rem;
@@ -620,7 +633,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 4rem;
-  padding-left: 5rem;
+  padding-left: 3rem;
 
 
 
@@ -655,7 +668,7 @@ body {
 
 .about-wrap {
 
-  padding: 5rem;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;

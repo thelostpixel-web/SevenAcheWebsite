@@ -44,18 +44,18 @@ export default function MainPage() {
                     </a>
                 </section>
                 <section className="p-images">
-                    <video autoPlay loop muted playsInline><source src="tc/TCS_intro_BLACK.mp4" type="video/mp4" /></video>
+                    <video autoPlay loop muted playsInline className="w-full"><source src="tc/TCS_intro_BLACK.mp4" type="video/mp4" /></video>
                     <div className="img-dbl-tc">
                         <div>
                             <video autoPlay loop muted playsInline><source src="tc/TCS_site_mobile.mp4" type="video/mp4" /></video>
                         </div>
                         <video autoPlay loop muted playsInline><source src="tc/every_X.mp4" type="video/mp4" /></video>
                     </div>
-                    <video autoPlay loop muted playsInline><source src="tc/TCS_STRAP_animation_S_1.mp4" type="video/mp4" /></video>
+                    <video autoPlay loop muted playsInline className="w-full"><source src="tc/TCS_STRAP_animation_S_1.mp4" type="video/mp4" /></video>
                     <div className="img-bg-r">
                         <img src="tc/s.png" alt="TC Sound" />
                     </div>
-                    <video autoPlay loop muted playsInline><source src="tc/cutting.mp4" type="video/mp4" /></video>
+                    <video autoPlay loop muted playsInline className="w-full"><source src="tc/cutting.mp4" type="video/mp4" /></video>
                     <div className="img-dbl">
                         <video autoPlay loop muted playsInline><source src="tc/tcs_colours.mp4" type="video/mp4" /></video>
                         <video autoPlay loop muted playsInline><source src="tc/stack_animation.mp4" type="video/mp4" /></video>

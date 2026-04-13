@@ -54,7 +54,7 @@ export default function MainPage() {
           <div className="img-bg-b">
             <img src="parade/site.png" alt="Parade Tattoo Parlour" />
           </div>
-          <video autoPlay loop muted playsInline>
+          <video autoPlay loop muted playsInline className="w-full">
             <source src="parade/PARADE_INTRO.mp4" type="video/mp4" />
           </video>
 

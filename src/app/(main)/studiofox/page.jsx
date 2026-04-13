@@ -44,25 +44,21 @@ export default function MainPage() {
           </a>
         </section>
         <section className="p-images">
-          <img src="fox/sf.png" alt="Studio Fox" />
-          <video autoPlay loop muted playsInline>
+          <img src="fox/sf.png" falt="Studio Fox" />
+          <video autoPlay loop muted playsInline className="w-full">
             <source src="fox/CWFP_animation_loop.mp4" type="video/mp4" />
           </video>
-          <div className="img-dbl fox-dbl">
-            <video autoPlay loop muted playsInline>
+          <div className="img-dbl fox-dbl b-s">
+            <video autoPlay loop muted playsInline className="sf-believe">
               <source src="fox/SFIG2.mp4" type="video/mp4" />
             </video>
-            <img
-              className="sf-believe"
-              src="fox/believe.png"
-              alt="Studio Fox"
-            />
+            <img src="fox/believe.png" alt="Studio Fox" />
           </div>
-          <video autoPlay loop muted playsInline>
+          <video autoPlay loop muted playsInline className="w-full">
             <source src="fox/sf_site_withbar.mp4" type="video/mp4" />
           </video>
 
-          <video autoPlay loop muted playsInline>
+          <video autoPlay loop muted playsInline className="w-full">
             <source src="fox/guidelines.mp4" type="video/mp4" />
           </video>
           <video autoPlay loop muted playsInline className="w-full">
@@ -71,6 +67,12 @@ export default function MainPage() {
           <div className="img-dbl-d">
             <img src="fox/tshirt.jpg" alt="Studio Fox" />
             <img src="fox/sticker.png" alt="Studio Fox" />
+          </div>
+          <div className="img-dbl fox-dbl">
+            <img src="fox/fs.png" alt="Studio Fox" />
+            <video autoPlay loop muted playsInline className="w-full">
+              <source src="fox/typography.mp4" type="video/mp4" />
+            </video>
           </div>
         </section>
         <div className="foot-nav">
