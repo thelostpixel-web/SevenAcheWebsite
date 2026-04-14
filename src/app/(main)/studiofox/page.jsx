@@ -49,7 +49,7 @@ export default function MainPage() {
             <source src="fox/CWFP_animation_loop.mp4" type="video/mp4" />
           </video>
           <div className="img-dbl fox-dbl b-s">
-            <video autoPlay loop muted playsInline className="sf-believe">
+            <video autoPlay loop muted playsInline className="sf-believe" >
               <source src="fox/SFIG.mp4" type="video/mp4" />
             </video>
             <img src="fox/believe.png" alt="Studio Fox" />
@@ -57,6 +57,8 @@ export default function MainPage() {
           <video autoPlay loop muted playsInline className="w-full">
             <source src="fox/sf_site_withbar.mp4" type="video/mp4" />
           </video>
+
+
 
           <video autoPlay loop muted playsInline className="w-full">
             <source src="fox/guidelines.mp4" type="video/mp4" />
@@ -71,8 +73,8 @@ export default function MainPage() {
           <div className="img-dbl fox-dbl">
             <img src="fox/fs.png" alt="Studio Fox" />
             <video autoPlay loop muted playsInline className="w-full">
-              <source src="fox/typography.mp4" type="video/mp4" />
-            </video>
+            <source src="fox/typography.mp4" type="video/mp4" />
+          </video>
           </div>
         </section>
         <div className="foot-nav">

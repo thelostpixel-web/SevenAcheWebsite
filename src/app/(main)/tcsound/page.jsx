@@ -47,7 +47,7 @@ export default function MainPage() {
                     <video autoPlay loop muted playsInline className="w-full"><source src="tc/TCS_intro_BLACK.mp4" type="video/mp4" /></video>
                     <div className="img-dbl-tc">
                         <div>
-                            <video autoPlay loop muted playsInline><source src="tc/TCS_site_mobile.mp4" type="video/mp4" /></video>
+                        <img src="tc/TCS_site_mobile_transparent.gif"/>
                         </div>
                         <video autoPlay loop muted playsInline><source src="tc/every_X.mp4" type="video/mp4" /></video>
                     </div>
