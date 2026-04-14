@@ -50,7 +50,7 @@ export default function MainPage() {
           </video>
           <div className="img-dbl fox-dbl b-s">
             <video autoPlay loop muted playsInline className="sf-believe">
-              <source src="fox/SFIG2.mp4" type="video/mp4" />
+              <source src="fox/SFIG.mp4" type="video/mp4" />
             </video>
             <img src="fox/believe.png" alt="Studio Fox" />
           </div>
